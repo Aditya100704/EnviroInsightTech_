@@ -9,4 +9,5 @@ function onClick(event) {
     event.preventDefault();
     console.log('button has been toggled')
     input.value = "";
+    window.location.hash = "body"
 }
