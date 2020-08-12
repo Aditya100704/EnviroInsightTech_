@@ -21,6 +21,11 @@
             overflow-x: none;
             background-repeat: no-repeat;
             background-size: cover;
+            font-family: 'Playfair Display', serif;
+        }
+        
+        h3 {
+            font-family: 'Playfair Display', serif;
         }
         
         .div1 {
@@ -32,6 +37,13 @@
         }
         
         .gardening {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 2%;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        
+        .recycling {
             background-color: rgba(255, 255, 255, 0.8);
             padding: 2%;
             margin-left: 2%;
@@ -104,21 +116,21 @@
             width: 100%;
             animation: animate 30s ease-in-out infinite;
             animation-name: eit;
-            animation-delay: 3s;
-            -webkit-animation-delay: 3s;
+            animation-delay: 1.5s;
+            -webkit-animation-delay: 1.5s;
             -webkit-animation-name: eit;
             text-align: center;
         }
         
         @keyframes eit {
             0% {
-                background: url("images/h2.jpg");
+                background: url("images/h1.jpg");
                 background-size: cover;
                 background-repeat: no-repeat;
                 /* background-position: center; */
             }
             25% {
-                background: url("images/h1.jpg");
+                background: url("images/h2.jpg");
                 background-size: cover;
                 background-repeat: no-repeat;
                 /* background-position: center; */
